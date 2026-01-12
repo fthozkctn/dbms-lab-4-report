@@ -2,9 +2,6 @@
 
 Sistem Programlama ve Veri Yapıları bakış açısıyla veri tabanlarındaki performansı öne çıkaran hususlar nelerdir?
 
-Aşağıda kutucuk (checkbox) ile gösterilen maddelerden en az birini seçtiğiniz açık kaynak kodlu bir VT kaynak kodları üzerinde göstererek açıklayınız. Açıklama bölümüne kısaca metninizi yazıp, kod üzerinde gösterim videonuzun linkini en altta belirtilen kutucuğa yerleştiriniz.
-
-- [X]  Seçtiğiniz konu/konuları bu şekilde işaretleyiniz. **!**
     
 ---
 
@@ -17,20 +14,20 @@ Aşağıda kutucuk (checkbox) ile gösterilen maddelerden en az birini seçtiği
 
 ### VT için Page (Sayfa) Anlamı
 
-- [ ]  VT hangisini kullanır? **Satır/ Sayfa** okuması
+- [X]  VT hangisini kullanır? **Satır/ Sayfa** okuması
 
 ---
 
 ### Buffer Pool
 
-- [ ]  Veritabanları, Sık kullanılan sayfaları bellekte (RAM) kopyalar mı (caching) ?
+- [X]  Veritabanları, Sık kullanılan sayfaları bellekte (RAM) kopyalar mı (caching) ?
 
 - [ ]  LRU / CLOCK gibi algoritmaları
 - [ ]  Diske yapılan I/O nasıl minimize ederler?
 
 # 2. Veri Yapıları Perspektifi
 
-- [ ]  B+ Tree Veri Yapıları VT' lerde nasıl kullanılır?
+- [X]  B+ Tree Veri Yapıları VT' lerde nasıl kullanılır?
 - [ ]  VT' lerde hangi veri yapıları hangi amaçlarla kullanılır?
 - [ ]  Clustered vs Non-Clustered Index Kavramı
 - [ ]  InnoDB satırı diskte nasıl durur?
@@ -56,24 +53,23 @@ DB diske yazarken:
 
 ---
 
-# Video [Linki](https://www.youtube.com/watch?v=Nw1OvCtKPII&t=2635s) 
-Ekran kaydı. 2-3 dk. açık kaynak V.T. kodu üzerinde konunun gösterimi. Video kendini tanıtma ile başlamalıdır (Numara, İsim, Soyisim, Teknik İlgi Alanları). 
+# Video [Linki](https://www.youtube.com/watch?v=qvBz2yBnW3Q&list=RDEMFoR8L9IMlEj2O-fh3dQBdg&index=1) 
+https://youtu.be/_xTmcG0B5hk 
 
 ---
 
-# Açıklama (Ort. 600 kelime)
+# Sistem Programlama ve Veri Yapıları Perspektifiyle Veritabanı Performans Analizi
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia luctus urna, vel aliquet lacus facilisis ac. Donec quis placerat orci, efficitur consectetur lacus. Sed rhoncus erat ex, at sagittis velit mollis et. Aliquam enim orci, sollicitudin sit amet libero quis, mollis ultricies risus. Fusce tempor, felis a consequat tristique, dolor magna convallis nulla, vel ullamcorper magna mauris non ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam quis imperdiet ex, at blandit sapien. Aliquam lacinia erat ac ipsum fringilla, quis vestibulum augue posuere. Nulla in enim nulla. Nunc euismod odio mauris, sed sollicitudin ex condimentum non. In efficitur egestas enim. Fusce tempus erat quis placerat convallis.
-
-Nam sit amet tincidunt ante. Pellentesque sit amet quam interdum, pellentesque dui vel, iaculis elit. Donec sed dui sodales nulla dignissim tincidunt. Maecenas semper metus id fermentum vulputate. Pellentesque lobortis hendrerit venenatis. Nullam imperdiet, ex eget ultricies egestas, mauris nunc aliquam ante, sed consectetur tellus ex vel leo. Nunc ut erat dapibus, auctor dolor eu, pretium sem. In lacinia congue eros et finibus. Aenean auctor, leo a feugiat placerat, urna felis lacinia purus, laoreet volutpat mi nisl eget dui. Ut vitae condimentum leo.
-
-Maecenas ex diam, vehicula et nulla vel, mattis viverra metus. Nam at ex scelerisque, semper augue lobortis, semper est. Etiam id pretium odio, eget rutrum neque. Pellentesque blandit magna vel aliquam gravida. Nullam massa nisl, imperdiet at dapibus non, cursus vehicula turpis. Vestibulum rutrum hendrerit augue. Aliquam id nisi id arcu tempor venenatis vel nec erat. Morbi sed posuere erat. Morbi et sollicitudin urna. Suspendisse ullamcorper vitae purus sit amet sodales. Nam ut tincidunt ipsum, ut varius erat. Duis congue magna nec euismod condimentum. In hac habitasse platea dictumst. Nunc mattis odio sed enim laoreet imperdiet. In hac habitasse platea dictumst. Nullam tincidunt quis.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia luctus urna, vel aliquet lacus facilisis ac. Donec quis placerat orci, efficitur consectetur lacus. Sed rhoncus erat ex, at sagittis velit mollis et. Aliquam enim orci, sollicitudin sit amet libero quis, mollis ultricies risus. Fusce tempor, felis a consequat tristique, dolor magna convallis nulla, vel ullamcorper magna mauris non ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam quis imperdiet ex, at blandit sapien. Aliquam lacinia erat ac ipsum fringilla, quis vestibulum augue posuere. Nulla in enim nulla. Nunc euismod odio mauris, sed sollicitudin ex condimentum non. In efficitur egestas enim. Fusce tempus erat quis placerat convallis.
-
-Nam sit amet tincidunt ante. Pellentesque sit amet quam interdum, pellentesque dui vel, iaculis elit. Donec sed dui sodales nulla dignissim tincidunt. Maecenas semper metus id fermentum vulputate. Pellentesque lobortis hendrerit venenatis. Nullam imperdiet, ex eget ultricies egestas, mauris nunc aliquam ante, sed consectetur tellus ex vel leo. Nunc ut erat dapibus, auctor dolor eu, pretium sem. In lacinia congue eros et finibus. Aenean auctor, leo a feugiat placerat, urna felis lacinia purus, laoreet volutpat mi nisl eget dui. Ut vitae condimentum leo.
-
-Maecenas ex diam, vehicula et nulla vel, mattis viverra metus. Nam at ex scelerisque, semper augue lobortis, semper est. Etiam id pretium odio, eget rutrum neque. Pellentesque blandit magna vel aliquam gravida. Nullam massa nisl, imperdiet at dapibus non, cursus vehicula turpis. Vestibulum rutrum hendrerit augue. Aliquam id nisi id arcu tempor venenatis vel nec erat. Morbi sed posuere erat. Morbi et sollicitudin urna. Suspendisse ullamcorper vitae purus sit amet sodales. Nam ut tincidunt ipsum, ut varius erat. Duis congue magna nec euismod condimentum. In hac habitasse platea dictumst. Nunc mattis odio sed enim laoreet imperdiet. In hac habitasse platea dictumst. Nullam tincidunt quis.
+1. Giriş
+Veritabanı Yönetim Sistemleri (VTYS), veriyi sadece depolayan değil, aynı zamanda veriye en düşük maliyetle erişimi optimize eden karmaşık yazılım mimarileridir. Bu rapor kapsamında, endüstri standardı olan MSSQL veritabanı motoru ve Northwind örnek veri seti kullanılarak; veritabanı performansını doğrudan etkileyen sistem programlama prensipleri ve veri yapıları analiz edilmiştir. Analizimiz; disk erişim stratejileri, bellek hiyerarşisi yönetimi ve indeksleme algoritmaları olmak üzere üç temel sütun üzerine inşa edilmiştir.
+2. Sistem Perspektifi: Sayfa (Page) Yapısı ve Disk I/O Optimizasyonu
+Modern işletim sistemlerinde disk erişimi, bayt bazlı değil blok bazlı gerçekleşir. MSSQL mimarisi, bu donanım gerçekliğine uyum sağlamak amacıyla verileri 8 KB’lık "Page" (Sayfa) adı verilen mantıksal birimlerde saklar.Sistem programlama perspektifinden bakıldığında, disk kafasının (HDD için) veya kontrolcünün (SSD için) bir veriye ulaşması "I/O Latency" (Gecikme) yaratır. Eğer veritabanı her bir satır için ayrı bir disk isteği (I/O Request) gönderseydi, sistem "I/O Bound" durumuna düşerek kilitlenirdi. MSSQL, Northwind veritabanındaki Orders tablosundan bir kayıt okurken, o kaydın bulunduğu 8 KB'lık sayfanın tamamını tek bir atomik işlemle okur.Bu yaklaşım, "Spatial Locality" (Mekansal Yerellik) prensibinden faydalanır. Yani, bir kayda erişen kullanıcının muhtemelen o kayda komşu olan verilere de erişeceği varsayılır. Bu sayede, rastgele disk erişimi (Random I/O) minimize edilerek ardışık okuma (Sequential I/O) avantajı kazanılır ve toplam sistem throughput değeri artırılmış olur.
+3. Bellek Yönetimi: Buffer Pool ve Veri Önbellekleme (Caching)
+Veritabanı performansındaki en büyük darboğaz disk erişim hızıdır. RAM ile disk arasındaki hız farkı milisaniyeler ile nanosaniyeler arasındaki uçurum kadardır. MSSQL, bu farkı kapatmak için Buffer Pool adı verilen gelişmiş bir bellek yönetim mekanizması kullanır.Diskten okunan her 8 KB'lık sayfa, doğrudan RAM üzerindeki bu tampon bölgeye kopyalanır. Veritabanı motoru, bir veri talebi geldiğinde önce disk yerine bu bellek alanını kontrol eder (Buffer Hit). Northwind veritabanı üzerinde çalışırken kullanılan sys.dm_os_buffer_descriptors gibi dinamik yönetim görünümleri (DMV), hangi tabloların hangi oranda bellekte tutulduğunu şeffaf bir şekilde ortaya koymaktadır.Buffer Pool yönetimi, işletim sistemindeki "Paging" mekanizmasına benzer bir mantıkla çalışır. Bellek dolduğunda hangi sayfanın dışarı atılacağına karar veren LRU (Least Recently Used) veya MSSQL özelindeki gelişmiş saat algoritmaları, en sık kullanılan Northwind verilerinin (örneğin sürekli sorgulanan Products tablosu) her zaman RAM'de kalmasını sağlar. Bu, disk I/O operasyonlarını dramatik bir şekilde azaltarak sorgu yanıt sürelerini optimize eder.
+4. Veri Yapıları: B+ Tree ve Hiyerarşik İndeksleme
+Veritabanı performansının veri yapıları ayağını ise indeksleme algoritmaları oluşturur. MSSQL, verileri fiziksel olarak organize etmek ve arama maliyetini düşürmek için B+ Tree (Balanced Tree) veri yapısını kullanır.Northwind Orders tablosundaki OrderID alanı üzerinde tanımlı olan Clustered Index, tablonun kendisinin disk üzerinde bu B+ Tree yapısında dizilmesini sağlar. B+ Tree yapısının "Balanced" (Dengeli) olması, veritabanındaki kayıt sayısı milyonlara ulaşsa bile, aranan bir kayda sadece 3-4 adımda (Root -> Intermediate -> Leaf) ulaşılmasını garanti eder.Veri yapıları perspektifiyle bu durum, arama karmaşıklığını $O(n)$ (Linear Scan) düzeyinden $O(\log n)$ (Binary/Tree Search) düzeyine indirger. Ayrıca B+ Tree'nin yaprak düğümlerinin (Leaf Nodes) birbirine bağlı listeler (Linked List) şeklinde bağlanmış olması, "Range Scan" dediğimiz belirli tarih aralığındaki siparişlerin getirilmesi gibi işlemlerde disk üzerinde ileri yönlü çok hızlı bir tarama yapılabilmesine olanak tanır.
+6. Sonuç
+Yapılan incelemeler sonucunda görülmüştür ki; veritabanı performansı sadece yazılan SQL sorgusunun kalitesine değil, aynı zamanda alttaki donanım ve işletim sistemi kaynaklarının ne kadar efektif kullanıldığına bağlıdır. MSSQL'in 8 KB'lık sayfa yapısı disk darboğazını aşmayı, Buffer Pool mekanizması bellek hiyerarşisini verimli kullanmayı, B+ Tree yapısı ise matematiksel olarak en hızlı erişim yolunu sunmayı amaçlar. Northwind veri seti üzerinde yapılan testler, bu teorik altyapının pratik uygulamadaki başarısını kanıtlar niteliktedir.
 
 ## VT Üzerinde Gösterilen Kaynak Kodları
 
@@ -82,3 +78,8 @@ Açıklama [Linki](https://...) \
 Açıklama [Linki](https://...) \
 ... \
 ...
+MSSQL Sayfa (Page) Yapısı Mimarisi [Linki](https://learn.microsoft.com/en-us/sql/relational-databases/pages-and-extents-architecture-guide?view=sql-server-ver16) \
+
+Buffer Pool (Buffer Manager) Yönetimi [Linki](https://learn.microsoft.com/en-us/sql/relational-databases/performance-monitor/sql-server-buffer-manager-object?view=sql-server-ver16) \
+
+B+ Tree İndeks Yapısı ve Tasarımı [Linki](https://learn.microsoft.com/en-us/sql/relational-databases/sql-server-index-design-guide?view=sql-server-ver16) \
