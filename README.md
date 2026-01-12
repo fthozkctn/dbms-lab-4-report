@@ -53,8 +53,7 @@ DB diske yazarken:
 
 ---
 
-# Video [Linki](https://www.youtube.com/watch?v=qvBz2yBnW3Q&list=RDEMFoR8L9IMlEj2O-fh3dQBdg&index=1) 
-https://youtu.be/_xTmcG0B5hk 
+# Video [Linki](https://youtu.be/_xTmcG0B5hk) 
 
 ---
 
@@ -73,11 +72,6 @@ Yapılan incelemeler sonucunda görülmüştür ki; veritabanı performansı sad
 
 ## VT Üzerinde Gösterilen Kaynak Kodları
 
-Açıklama [Linki](https://...) \
-Açıklama [Linki](https://...) \
-Açıklama [Linki](https://...) \
-... \
-...
 MSSQL Sayfa (Page) Yapısı Mimarisi [Linki](https://learn.microsoft.com/en-us/sql/relational-databases/pages-and-extents-architecture-guide?view=sql-server-ver16) \
 
 Buffer Pool (Buffer Manager) Yönetimi [Linki](https://learn.microsoft.com/en-us/sql/relational-databases/performance-monitor/sql-server-buffer-manager-object?view=sql-server-ver16) \
